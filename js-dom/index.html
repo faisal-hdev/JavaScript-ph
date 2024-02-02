@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/index.css" />
+
+    <title>JS-Dom</title>
+  </head>
+  <body>
+    <header>
+      <nav>this is navbar.</nav>
+    </header>
+    <main>
+      <section class="calc-section">
+        <!-- display -->
+        <div class="display-div">
+          <div id="calc-div" class="calc-div">
+            <span>0.0</span>
+          </div>
+          <hr />
+          <div class="result-div">0.0</div>
+        </div>
+        <div class="btn-div">
+          <div onclick="handleBtnClk(this)" class="btn">AC</div>
+          <div onclick="handleBtnClk(this)" class="btn">%</div>
+          <div onclick="handleBtnClk(this)" class="btn">%</div>
+          <div onclick="handleBtnClk(this)" class="btn">/</div>
+          <div onclick="handleBtnClk(this)" class="btn">7</div>
+          <div onclick="handleBtnClk(this)" class="btn">8</div>
+          <div onclick="handleBtnClk(this)" class="btn">9</div>
+          <div onclick="handleBtnClk(this)" class="btn">x</div>
+          <div onclick="handleBtnClk(this)" class="btn">4</div>
+          <div onclick="handleBtnClk(this)" class="btn">5</div>
+          <div onclick="handleBtnClk(this)" class="btn">6</div>
+          <div onclick="handleBtnClk(this)" class="btn">+</div>
+          <div onclick="handleBtnClk(this)" class="btn">1</div>
+          <div onclick="handleBtnClk(this)" class="btn">2</div>
+          <div onclick="handleBtnClk(this)" class="btn">3</div>
+          <div onclick="handleBtnClk(this)" class="btn">-</div>
+          <div onclick="handleBtnClk(this)" class="btn zero-btn">0</div>
+          <div onclick="handleBtnClk(this)" class="btn">.</div>
+          <div onclick="handleResult()" class="btn">=</div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; this is footer</p>
+    </footer>
+    <script src="script/index.js"></script>
+  </body>
+</html>
